@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <title>game </title>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="wrap__title">translator game powered by sabikha</h1>
+        <div class="wrap__content">
+            <input type="text" class="typing__input" maxlength="1">
+            <div class="inputs"></div>
+            <div class="description">
+                <p class="hint">question: <span class="hint__span"></span></p>
+                <p class="max__guess">chance: <span></span></p>
+                <p class="wrong__letters">wrong letters: <span></span></p>
+            </div>
+
+            <button class="reset__button">reset</button>
+        </div>
+    </div>
+
+    <script src="./js/words.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
